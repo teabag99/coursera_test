@@ -9,21 +9,22 @@ body {
 /** HEADER **/
 
 #header-nav {
-    background-color: #c98715;
+    background-color: white;
     border-radius: 0;
     border: 0;
 }
 
 #header-nav button {
     margin-top: 22px;
+    color: black;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #fce29e;
+    background-color: whitesmoke;
 }
 
 .navbar-collapse {
-    border-top: 0;
+    border: 0;
 }
 
 .navbar-brand, .navbar-nav li a {
@@ -33,9 +34,8 @@ body {
 }
 
 .navbar-brand h1 {
-    color: #7d1913;
-    font-family: 'Abril Fatface', cursive;
-    font-weight: bolder;
+    color: #51A8F1;
+    font-family: 'Arial';
     font-size: 1.8em;
 }
 
@@ -45,19 +45,18 @@ body {
 }
 
 #nav-list {
-    background-color: #e4af34;
+    background-color: white;
+    text-align: center;
 }
 
 #nav-list a {
-    /*text-align: center;*/
-    font-weight: bolder;
-    color: #282828;
+    text-align: center;
+    color: black;
     font-size: 1.2em;
 }
 
 #nav-list a:hover {
-    color: #202020;
-    background-color: #fce29e;
+    background-color: lightgray;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -80,6 +79,7 @@ body {
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 #main-content h3 {
@@ -94,6 +94,7 @@ body {
     background-color: #99ed7b;
     margin-bottom: 60px;
     box-shadow: 0 0 80px #18580b;
+    text-align: center;
 }
 
 
